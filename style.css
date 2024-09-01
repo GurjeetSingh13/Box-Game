@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 200px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+#box1,#box2,#box3,#box4{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
